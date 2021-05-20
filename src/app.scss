@@ -7,8 +7,16 @@ h1{
     text-align: $sass_align;
 }
 
+h1:hover{
+    background-color: $sass_color2;
+}
+
 p {
     color: $sass_color2;
+}
+
+p:hover{
+    background-color: $sass_color;
 }
 
 button{
@@ -19,4 +27,9 @@ button{
     padding: 5px;
     display: block;
     margin: auto;
+    transition: .3s;
+}
+
+button:hover{
+    transform: scale(1.2);
 }
