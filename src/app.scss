@@ -1,9 +1,22 @@
 $sass_color: #a6cec8;
+$sass_color2: #7eb2e2;
+$sass_align: center;
 
 h1{
     color: $sass_color;
+    text-align: $sass_align;
 }
 
 p {
-    color: $sass_color;
+    color: $sass_color2;
+}
+
+button{
+    color: $sass_color2;
+    background-color: $sass_color;
+    border: 2px solid $sass_color2;
+    border-radius: 8px;
+    padding: 5px;
+    display: block;
+    margin: auto;
 }
